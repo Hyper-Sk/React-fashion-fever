@@ -1,0 +1,38 @@
+.about {
+  padding: 30px 20px 50px;
+}
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.about-content .image {
+}
+.about-content .image img {
+  width: 100%;
+}
+
+.about-content .text h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.about-content .text p {
+  margin-bottom: 10px;
+}
+.about-content .text ul {
+  padding-left: 10px;
+  list-style: none;
+}
+.about-content .text .list .list__item{
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+}

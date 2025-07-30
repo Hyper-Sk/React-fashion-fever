@@ -1,0 +1,12 @@
+.rating{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.rating span{
+    padding-left: 5px;
+}
+.rating i{
+    font-size: 18px;
+    color: goldenrod;
+}

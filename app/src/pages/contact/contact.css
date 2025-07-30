@@ -1,0 +1,47 @@
+.contact {
+    padding: 30px 20px 50px;
+
+}
+.contact-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.contact-content .image{
+    display: flex;
+}
+.contact-content .image img{
+    width: 100%;
+}
+.contact-content .col{
+    margin-bottom: 50px;
+}
+.contact-content .text h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact-content .text p{
+    margin-bottom: 10px;
+}
+.contact-content .text a{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-content .text button{
+    margin-top: 10px;
+   padding: 12px 20px;
+   border: 1px solid var(--border-color);
+   background-color: black;
+   color: var(--bg-light);
+   cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .contact-content{
+        grid-template-columns:  1fr;
+    }
+}
